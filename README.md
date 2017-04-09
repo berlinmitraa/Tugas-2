@@ -50,7 +50,7 @@ Jasa.xml
    disebut sudah serasi.
    
  
- Jasa.xsd :
+ Jasa.xsd 
  
  1. Tujuan pembuatan file xsd adalah kita dapat mengetahui lokasi-lokasi elemen pada sebuah elemen xml yang sebelumnya 
     sudah dibuat
@@ -60,7 +60,7 @@ Jasa.xml
     mengatur Constraint pada type int untuk memberikan sebuah minimal dan maximal jumlah yang ingin kita tujukan.
  
  
- Jasa1.xml :
+ Jasa1.xml 
  
 <?xml version="1.0" encoding="UTF-8"?>
 <alamat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Jasa.xsd">alamat</alamat>
