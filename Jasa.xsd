@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="IndustriJasa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="LowonganKerja"/>
+                <xs:element ref="klien"/>
+                <xs:element ref="pekerja"/>
+                <xs:element ref="Paket_Jasa"/>
+                <xs:element ref="Pasang_Job"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="LowonganKerja">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="post"/>
+                <xs:element ref="judul"/>
+                <xs:element ref="pekerjaan"/>
+                <xs:element ref="skill"/>
+                <xs:element ref="kebutuhan"/>
+                <xs:element ref="pembukaan"/>
+                <xs:element ref="penutupan"/>
+                <xs:element ref="tempo_waktu"/>
+                <xs:element ref="pendaftaran"/>
+                <xs:element ref="komisi"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="post" type="xs:NCName"/>
+    <xs:element name="judul" type="xs:string"/>
+    <xs:element name="skill" type="xs:string"/>
+    <xs:element name="pembukaan" type="xs:NMTOKEN"/>
+    <xs:element name="tempo_waktu" type="xs:string"/>
+    <xs:element name="pendaftaran" type="xs:NCName"/>
+    <xs:element name="komisi" type="xs:integer"/>
+    <xs:element name="klien">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="alamat"/>
+                <xs:element ref="jenis_kelamin"/>
+                <xs:element ref="ttl"/>
+                <xs:element ref="industri"/>
+                <xs:element ref="jabatan"/>
+                <xs:element ref="email"/>
+                <xs:element ref="username"/>
+                <xs:element ref="password"/>
+                <xs:element ref="telp"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="jabatan" type="xs:string"/>
+    <xs:element name="pekerja">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="alamat"/>
+                <xs:element ref="jenis_kelamin"/>
+                <xs:element ref="ttl"/>
+                <xs:element ref="pekerjaan"/>
+                <xs:element ref="pengetahuan"/>
+                <xs:element ref="email"/>
+                <xs:element ref="username"/>
+                <xs:element ref="password"/>
+                <xs:element ref="telp"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="pengetahuan" type="xs:string"/>
+    <xs:element name="Paket_Jasa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="transaksi_atm"/>
+                <xs:element ref="rekening_bni"/>
+                <xs:element ref="rekening_bca"/>
+                <xs:element ref="atas_nama"/>
+                <xs:element ref="kode_transaksi"/>
+                <xs:element ref="paket_kebutuhan"/>
+                <xs:element ref="tingkatan_produk"/>
+                <xs:element ref="harga_produk"/>
+                <xs:element ref="waktu_sewa"/>
+                <xs:element ref="kontak"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="transaksi_atm" type="xs:string"/>
+    <xs:element name="rekening_bni" type="xs:integer"/>
+    <xs:element name="rekening_bca" type="xs:integer"/>
+    <xs:element name="atas_nama" type="xs:NCName"/>
+    <xs:element name="kode_transaksi" type="xs:integer"/>
+    <xs:element name="paket_kebutuhan" type="xs:string"/>
+    <xs:element name="tingkatan_produk" type="xs:string"/>
+    <xs:element name="harga_produk" type="xs:string"/>
+    <xs:element name="waktu_sewa" type="xs:string"/>
+    <xs:element name="Pasang_Job">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="kategori"/>
+                <xs:element ref="kebutuhan"/>
+                <xs:element ref="budget"/>
+                <xs:element ref="penutupan"/>
+                <xs:element ref="username"/>
+                <xs:element ref="email"/>
+                <xs:element ref="nama_perusahaan"/>
+                <xs:element ref="industri"/>
+                <xs:element ref="kontak"/>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kategori" type="xs:string"/>
+    <xs:element name="budget" type="xs:integer"/>
+    <xs:element name="nama_perusahaan" type="xs:NCName"/>
+    <xs:element name="pekerjaan" type="xs:string"/>
+    <xs:element name="kebutuhan" type="xs:string"/>
+    <xs:element name="penutupan" type="xs:string"/>
+    <xs:element name="nama" type="xs:NCName"/>
+    <xs:element name="alamat" type="xs:string"/>
+    <xs:element name="jenis_kelamin" type="xs:NCName"/>
+    <xs:element name="ttl" type="xs:string"/>
+    <xs:element name="industri" type="xs:string"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="username" type="xs:NCName"/>
+    <xs:element name="password" type="xs:NCName"/>
+    <xs:element name="telp" type="xs:integer"/>
+    <xs:element name="kontak" type="xs:NMTOKEN"/>
+</xs:schema>

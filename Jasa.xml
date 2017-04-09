@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IndustriJasa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Jasa.xsd">
+	<LowonganKerja>
+		<post>Mirana</post>
+		<judul>Re-Design Website</judul>
+		<pekerjaan>Pengembangan User Interface Design</pekerjaan>
+		<skill>HTML dan CSS</skill>
+		<kebutuhan>5 Orang</kebutuhan>
+		<pembukaan>25-01-2017</pembukaan>
+		<penutupan>30-01-2017</penutupan>
+		<tempo_waktu>6 Hari</tempo_waktu>
+		<pendaftaran>Portofolio</pendaftaran>
+		<komisi>500000</komisi>
+	</LowonganKerja>
+	<klien>
+		<nama>Mirana</nama>
+		<alamat>Bandung Utara - Cijerokaso</alamat>
+		<jenis_kelamin>Perempuan</jenis_kelamin>
+		<ttl>Bandung 7-08-1987</ttl>
+		<industri>Market Place</industri>
+		<jabatan>UI/UX Design Web</jabatan>
+		<email>mirana@indost.com</email>
+		<username>Mirana007</username>
+		<password>ploikju</password>
+		<telp>08129929003</telp>
+	</klien>
+	<pekerja>
+		<nama>Berlin</nama>
+		<alamat>Bekasi Utara - Tytyan Kencana</alamat>
+		<jenis_kelamin>Laki-laki</jenis_kelamin>
+		<ttl>Bekasi 09-09-1997</ttl>
+		<pekerjaan>Pelajar/Mahasiswa</pekerjaan>
+		<pengetahuan>HTML dan CSS</pengetahuan>
+		<email>berlin@gmail.com</email>
+		<username>berlin123</username>
+		<password>qwased</password>
+		<telp>08127564400</telp>
+	</pekerja>
+	<Paket_Jasa>
+		<transaksi_atm>BNI dan BCA</transaksi_atm>
+		<rekening_bni>0399990001</rekening_bni>
+		<rekening_bca>0158889991</rekening_bca>
+		<atas_nama>PT.Sribulancer</atas_nama>
+		<kode_transaksi>992376</kode_transaksi>
+		<paket_kebutuhan>Web Design</paket_kebutuhan>
+		<tingkatan_produk>Regular dan Premium</tingkatan_produk>
+		<harga_produk>500000 - 2500000</harga_produk>
+		<waktu_sewa>30 Hari</waktu_sewa>
+		<kontak>021-88490321</kontak>
+	</Paket_Jasa>
+	<Pasang_Job>
+		<kategori>Website dan Pengembangan</kategori>
+		<kebutuhan>Web Design dan Developtment</kebutuhan>
+		<budget>500000</budget>
+		<penutupan>7 Hari</penutupan>
+		<username>Hinata</username>
+		<email>hinata@lokiplov.com</email>
+		<nama_perusahaan>PT.Lokiplov</nama_perusahaan>
+		<industri>Logistik</industri>
+		<kontak>022-88012933</kontak>
+		<alamat>Bandung - Pasteur</alamat>
+	</Pasang_Job>
+</IndustriJasa>
